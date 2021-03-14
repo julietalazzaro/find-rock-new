@@ -1,0 +1,40 @@
+body {
+  color: #666;
+}
+
+.item {
+  border-radius: 50%;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.pic {
+  width: 180px;
+  border-radius: 50%;
+  border: solid 1px #f4f4f4;
+  background: linear-gradient(
+    200deg,
+    rgba(255, 71, 135, 0.8) 15%,
+    rgba(71, 135, 255, 0.8) 51%,
+    rgba(255, 99, 71, 0.8) 85%
+  );
+}
+
+.item:hover {
+  box-shadow: 0 2px 30px 0 rgba(32, 33, 36, 0.4);
+  border-color: rgba(223, 225, 229, 0);
+  text-decoration: none;
+}
+
+.titulo {
+  z-index: 5;
+  font-size: 15px;
+  width: 100%;
+  color: #f4f4f4;
+  overflow: hidden;
+  text-align: center;
+  margin-top: -100px;
+  font-weight: 800;
+}
